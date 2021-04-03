@@ -1,0 +1,36 @@
+#navbar {
+    flex-direction: column;
+    padding: .5rem 0;
+    overflow: hidden;
+    height: 80px;
+}
+
+/* About section */
+
+#about .about{
+    width: 85%;
+    flex-direction: column;
+}
+#about .about div{
+    width: 100%;
+}
+#about .about .about-container-left .skills,
+#about .about .about-container-left .languages{
+    width: 100%;
+    margin: 1rem 0;
+}
+#about .about .about-container-left .languages{
+    font-size: 1.4rem;
+}
+
+/* Projects section */
+
+#projects .projects {
+    flex-direction: column;
+}
+#projects div .projects div {
+    width: 100%;
+}
+#projects div .projects div h4{
+  padding: 10px 0;
+}
