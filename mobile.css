@@ -8,7 +8,7 @@
 /* About section */
 
 #about .about{
-    width: 85%;
+    width: 95%;
     flex-direction: column;
 }
 #about .about div{
@@ -20,7 +20,7 @@
     margin: 1rem 0;
 }
 #about .about .about-container-left .languages{
-    font-size: 1.4rem;
+    font-size: 1.79rem;
 }
 
 /* Projects section */
