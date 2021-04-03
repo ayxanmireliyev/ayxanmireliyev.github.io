@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Navbar */
+
+#navbar {
+  background-color: rebeccapurple;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.75rem;
+  height: 70px;
+  /* position: fixed; */
+}
+#navbar h1 {
+  font-size: 1.4rem;
+  letter-spacing: 1.5px;
+}
+#navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+#navbar ul li a {
+  padding: 0.5rem;
+}
+#navbar ul li a:hover {
+  background: #336ea2;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+/* Home Section */
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.8rem;
+  border-bottom: 1px solid grey;
+}
+#home img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+#home h2 {
+  font-size: 1.75rem;
+  margin: 0.2rem 0;
+}
+#home .profile {
+  text-align: center;
+}
+#home .profile p {
+  font-size: 0.9rem;
+  opacity: 0.6;
+  font-style: italic;
+}
+
+/* About section */
+
+h3,h2 {
+  text-align: center;
+  margin-bottom: 5px;
+  opacity: .6;
+}
+#about {
+  background-color: #151515;
+  padding: 1rem;
+}
+#about .about {
+  width: 75%;
+  background-color: #252525;
+  margin: 0 auto;
+  padding: 0.4rem;
+  color: #fff;
+  display: flex;
+}
+#about .about div {
+  width: 50%;
+}
+#about .about .about-container-left .skills,
+#about .about .about-container-left .languages {
+  background-color: #1b1b1b;
+  width: 50%;
+  margin: 1rem 2rem;
+  padding: 0.8rem;
+}
+#about .about .about-container-left .skills .skills-top {
+  width: 100%;
+}
+#about .about .about-container-left .languages {
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+#about .about .about-container-right {
+  padding: 0.8rem;
+}
+#about .about .about-container-right .interests {
+  width: 100%;
+  background-color: #1b1b1b;
+  padding: 0.8rem;
+}
+#about .about .about-container-right .interests > div {
+  width: 100%;
+  display: flex;
+}
+#about .about .about-container-right .education {
+  background-color: #1b1b1b;
+  padding: 0.8rem;
+  width: 100%;
+  margin-top: 20px;
+}
+.interests div .interests-left div,
+.interests div .interests-right div {
+  padding: 3px;
+}
+#about .about .about-container-right .contact {
+  background-color: #1b1b1b;
+  padding: .8rem;
+  margin-top: 20px;
+  width: 100%;
+}
+#about .about .about-container-right .contact .calls{
+    width: 100%;
+}
+#about .about .about-container-right .contact .calls div{
+    width: 100%;
+    padding: .4rem;
+}
+
+/* Projects section */
+
+#projects{
+  background-color: #151515;
+  padding: 1rem;
+  margin-top: 10px;
+  padding-bottom: 5rem;
+}
+#projects h2{
+  font-size: 1.75rem;
+  color: #fff;
+}
+#projects .projects{
+  display: flex;
+  justify-content: space-around;
+}
+#projects div .projects div{
+  width: 30%;
+  margin-top: 20px;
+  height: 30vh;
+  background-color: #fff;
+}
+#projects div .projects div img{
+  width: 100%;
+  height: 100%;
+}
+#projects div .projects div h4{
+  background-color: #151515;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-bottom: 10px;
+}
+#contact {
+  color: #fff;
+  margin-top: 15px;
+  background-color: #151515;
+}
+#contact .contact-form{
+  width: 70%;
+  background-color: #1b1b1b;
+  margin: 0 auto;
+  padding: 20px;
+}
+#contact h4{
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 10px;
+}
+#contact .formgroup{
+  padding: .25rem 0;
+}
+#contact .formgroup label{
+  display: block;
+  margin-bottom: 8px;
+}
+#contact input,
+#contact textarea,
+#contact button{
+  padding: 10px;
+  width: 100%;
+  font-size: 1.1rem;
+  outline: none;
+  resize: none;
+}
+#contact button{
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 1.5rem;
+  background-color: #336ea2;
+  color: #fff;
+}
+#contact button:hover{
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+}
+footer{
+  background-color: #000;
+  color: white;
+  padding: 50px 20px;
+}
+footer div{
+  opacity: .5;
+}
